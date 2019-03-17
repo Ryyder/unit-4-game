@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- reset css file  -->
+  <link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css" />
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- css file -->
+  <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css" />
+  <title>Dragon Ball Z Crystal Game</title>
+</head>
+<body>
+
+    <div class="jumbotron bg-white">
+        <h2 class="display-4 text-center">Dragon Ball Z Point Collector</h2>
+        <p class="lead text-center">You will be given a random number at the start of the game.</p>
+        <p class="lead text-center">There are four characters below. Clicking on a character will add a specific amount of points to your score.</p>
+        <p class="lead text-center">Win by matching your total score with the random number, you lose the game if your total score goes above the random number.</p>
+        <p class="lead text-center">The value of each character is random every game and is hidden from the user until you click on it.</p>
+        <div class="row">
+            <div class="col-3">
+                <p class = "textID" id = "random-number"></p>
+            </div>
+            <div class="col-3">
+                <p class = "textID" id = "total-score"></p>
+            </div>
+        </div>
+        <div class = "row">
+          <div class = "col-4">
+              <p class = "textID" id = "win-text"></p>
+          </div>
+          <div class="col-4">
+              <p class = "textID" id = "lose-text"></p>
+          </div>
+        </div>
+        <div class = "row justify-center">
+          <div class = "col-3 dbz-image" id = "goku">
+            <!-- img goku -->
+          </div>
+          <div class = "col-3 dbz-image" id = "vegeta">
+            <!-- img vegeta -->
+          </div>
+          <div class = "col-3 dbz-image" id = "broly">
+            <!-- img broly -->
+          </div>
+          <div class = "col-3 dbz-image" id = "jiren">
+            <!-- img jiren -->
+          </div>
+        </div>  
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src = "assets/javascript/game.js" type="text/javascript"></script>
+  
+</body>
+</html>

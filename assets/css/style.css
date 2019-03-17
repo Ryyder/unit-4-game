@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Saiyan-Sans";
+  src: url("../images/Saiyan-Sans.ttf") format("truetype"); 
+
+}
+
+body {
+  font-family: "Saiyan-Sans";
+  background-image: url("../images/background.jpg");
+  background-size: 100% 140%;
+  color: #FBE32C;
+}
+
+.jumbotron {
+  background: none !important;
+}
+
+.btn {
+  background: none !important;
+  border: none;
+  color: #EBD406;
+  padding: .5rem 7.5rem;
+  font-size: 2rem;
+}
+
+.textID {
+  font-size: 2rem;
+}
+
+.col-3 {
+  flex: none;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+#goku {
+  background-image: url(../images/goku.jpg);
+  height: 200px;
+  width: 160px;
+}
+
+#vegeta {
+  background-image: url(../images/vegeta.jpg);
+  height: 200px;
+  width: 160px;
+}
+
+#broly {
+  background-image: url(../images/broly.jpg);
+  height: 200px;
+  width: 160px;
+}
+
+#jiren {
+  background-image: url(../images/jiren.jpg);
+  height: 200px;
+  width: 160px;
+}
