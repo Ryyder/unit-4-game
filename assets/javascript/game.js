@@ -5,7 +5,7 @@ $(document).ready(function () {
   var losses = 0; // lose counter
   var score; //score counter
 
-  //array to hold or dragon bal id's
+  //array to hold or dragon ball id's
   var charVal = [$("#goku"), $("#vegeta"), $("#broly"), $("#jiren")];
 
   // new game function. Generate new random number between 19 to 120
