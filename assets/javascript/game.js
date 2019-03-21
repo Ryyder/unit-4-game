@@ -1,9 +1,10 @@
 $(document).ready(function () {
 
   var randomNum; // holds random number for user to guess
+  var score; //score counter
   var wins = 0; // score counter
   var losses = 0; // lose counter
-  var score; //score counter
+  
 
   //array to hold or dragon ball id's
   var charVal = [$("#goku"), $("#vegeta"), $("#broly"), $("#jiren")];
@@ -27,11 +28,12 @@ $(document).ready(function () {
     }
   }
 
-  resetGame();
-
   // initially display our wins and losses to the DOM
   $("#win-text").append("Wins: " + wins);
   $("#lose-text").append("Losses: " + losses);
+
+  // call our reset game function to generate new values. initialize our game
+  resetGame();
 
   // click event handler any class with dbz image clicked we...
   $(".dbz-image").on("click", function () {
