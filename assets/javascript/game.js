@@ -32,9 +32,6 @@ $(document).ready(function () {
   $("#win-text").append("Wins: " + wins);
   $("#lose-text").append("Losses: " + losses);
 
-  // call our reset game function to generate new values. initialize our game
-  resetGame();
-
   // click event handler any class with dbz image clicked we...
   $(".dbz-image").on("click", function () {
     // get the value of the dragon ball character
@@ -62,5 +59,8 @@ $(document).ready(function () {
       resetGame();
     }
   });
+
+  // call our reset game function to generate new values. initialize our game
+  resetGame();
 
 });
